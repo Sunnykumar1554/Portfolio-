@@ -210,9 +210,12 @@ function Portfolio() {
             <div className="brutal-box-lg relative aspect-square w-full max-w-sm justify-self-center border-2 border-ink bg-primary p-6 shadow-[10px_10px_0_0_var(--ink)]">
               <div className="flex h-full flex-col justify-between">
                 <div className="mono text-xs">// portrait.log</div>
-                <div className="text-6xl font-black leading-none">
-                  SK
-                  <div className="mt-2 h-2 w-24 bg-ink" />
+                <div className="relative my-4 flex-1 overflow-hidden border-2 border-ink bg-card">
+                  <img
+                    src="/avatar.png"
+                    alt="Sunny Kumar Portrait"
+                    className="h-full w-full object-cover"
+                  />
                 </div>
                 <div className="mono text-xs">
                   → MCA Final Year · 2026 Batch
