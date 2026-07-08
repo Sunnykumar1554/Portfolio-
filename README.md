@@ -1,5 +1,7 @@
 # Sunny Kumar — Data Analyst & AI/ML Data Associate Portfolio
 
+live link :- https://sunnykumar-portfolio.netlify.app/
+
 Welcome to the source code repository of my professional portfolio. This web application features a modern, responsive **Neo-Brutalist UI design** with high-contrast elements, custom cursor tracking, interactive animations, and deep-link navigation. 
 
 It showcases projects, certifications, professional experience, and provides a direct resume downloader and contact details.
