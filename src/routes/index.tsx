@@ -54,8 +54,8 @@ const PROJECTS = [
     stack: ["Python", "NLP", "LLMs", "Llama API"],
     blurb:
       "NLP + LLM-powered assistant that annotates symptom-based medical text across multiple modalities with strict quality control.",
-    meta: "↗ NLP · Data quality · Llama API",
-    href: "https://github.com/Sunnykumar1554/MediAssist-AI-Powered-Medical-Chatbot",
+    meta: "↗ Live · NLP · Data quality · Llama API",
+    href: "https://mediassist-ai-powered-medical-chatbot.onrender.com/",
     github: "https://github.com/Sunnykumar1554/MediAssist-AI-Powered-Medical-Chatbot",
   },
   {
