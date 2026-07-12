@@ -109,10 +109,7 @@ const SKILL_GROUPS = [
       "MLflow",
       "Evidently",
       "Docker",
-      "Kubernetes",
       "GitHub Actions",
-      "Prometheus",
-      "Grafana",
     ],
   },
 ];
@@ -438,14 +435,26 @@ function Portfolio() {
                   <p className="mt-4 flex-1 text-sm leading-relaxed">{p.blurb}</p>
                   <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
                     <div className="mono text-xs">{p.meta}</div>
-                    <a
-                      href={p.github}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="brutal-box-sm bg-card px-4 py-1.5 mono text-xs font-bold uppercase tracking-wider transition-transform hover:-translate-x-0.5 hover:-translate-y-0.5"
-                    >
-                      GitHub ↗
-                    </a>
+                    <div className="flex gap-2">
+                      {p.href !== p.github && (
+                        <a
+                          href={p.href}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="brutal-box-sm bg-primary px-4 py-1.5 mono text-xs font-bold uppercase tracking-wider transition-transform hover:-translate-x-0.5 hover:-translate-y-0.5"
+                        >
+                          Live ↗
+                        </a>
+                      )}
+                      <a
+                        href={p.github}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="brutal-box-sm bg-card px-4 py-1.5 mono text-xs font-bold uppercase tracking-wider transition-transform hover:-translate-x-0.5 hover:-translate-y-0.5"
+                      >
+                        GitHub ↗
+                      </a>
+                    </div>
                   </div>
                 </div>
               ))}
